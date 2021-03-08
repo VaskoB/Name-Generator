@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N2ntQr4yK2zifutC9Amur4yDFFBLchIT7UoK9vpYPeJUFhr2NUVpahG2fmfyT1UklN/gZW4lpsq7MBKuCpRXVA==",
+  "success": true,
+  "projectFilePath": "F:\\C# Projects\\Name Generator\\Name Generator\\Name Generator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vasko\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

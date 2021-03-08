@@ -1,0 +1,15 @@
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Name Generator.exe
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Name Generator.deps.json
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Name Generator.runtimeconfig.json
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Name Generator.runtimeconfig.dev.json
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Name Generator.dll
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Name Generator.pdb
+F:\C# Projects\Name Generator\Name Generator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.csprojAssemblyReference.cache
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.AssemblyInfoInputs.cache
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.AssemblyInfo.cs
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.csproj.CoreCompileInputs.cache
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.csproj.CopyComplete
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.dll
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.pdb
+F:\C# Projects\Name Generator\Name Generator\obj\Debug\netcoreapp3.1\Name Generator.genruntimeconfig.cache
