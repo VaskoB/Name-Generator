@@ -106,7 +106,7 @@ namespace Name_Generator
         }
 
         //Create a bulk of random names
-        public List<string> RandomNames(int number, int maxMiddleNames, Gender? gender = null, bool? initials = null) //? means that the type might have a null value so 
+        public List<string> RandomNames(int number, int maxMiddleNames, Gender? gender = null, bool? initials = null) //? means that the type might have a null value 
         {
             List<string> names = new List<string>();
 
@@ -114,25 +114,23 @@ namespace Name_Generator
             {
                 if(gender != null && initials != null) //If there is a specific gender and initials 
                 {
-                    //Generate gender specific name, roll up to n middle names and a true initials bool
-                    names.Add(Generate((Gender)gender, random.Next(0, maxMiddleNames + 1), (bool)initials));
+                    names.Add(Generate((Gender)gender, random.Next(0, maxMiddleNames + 1), (bool)initials)); //calls the generate method to generate the name with the given values + adds to names
                 }
                 else if(gender != null) //if the gender is specific
                 {
                     bool initial = random.Next(0, 2) != 0; //Rolls a random true or false to decide if there's going to be initials
-                    names.Add(Generate((Gender)gender, random.Next(0, maxMiddleNames + 1), initial)); //same thing in as in the first if
+                    names.Add(Generate((Gender)gender, random.Next(0, maxMiddleNames + 1), initial)); //calls the generate method to generate the name with the given values + adds to names
                 }
-                else if(initials != null)//if there's going to be initials
+                else if(initials != null) //if there's going to be initials
                 {
-                    Gender gndr = (Gender)random.Next(0, 2);
-                    bool initial = random.Next(0, 2) != 0;
-                    names.Add(Generate(gndr, random.Next(0, maxMiddleNames + 1), initial));
+                    Gender gndr = (Gender)random.Next(0, 2); //rolls a random gender
+                    names.Add(Generate(gndr, random.Next(0, maxMiddleNames + 1), (bool)initials)); //calls the generate method to generate the name with the given values + adds to names
                 }
-                else
+                else //fully randomised name
                 {
-                    Gender gndr = (Gender)random.Next(0, 2);
-                    bool initial = random.Next(0, 2) != 0;
-                    names.Add(Generate(gndr, random.Next(0, maxMiddleNames + 1), initial));
+                    Gender gndr = (Gender)random.Next(0, 2); //rolls for a random gender
+                    bool initial = random.Next(0, 2) != 0; //rolls a true or false 
+                    names.Add(Generate(gndr, random.Next(0, maxMiddleNames + 1), initial)); //calls the generate method to generate the name with the given values + adds to names
                 }
             }
             return names;
